@@ -50,6 +50,7 @@ body {
 
 ul.exp {
     list-style-type: none;
+    display: inline;
 }
 
 li.exp2 {
