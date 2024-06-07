@@ -29,6 +29,7 @@ body {
     color: #000000;
     display: block;
     font-weight: 300;
+    /*text-align: center;*/
 }
   
 .sidenav a:hover {
@@ -45,4 +46,14 @@ body {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+}
+
+
+ul.exp {
+    list-style-type: none;
+}
+
+li.exp {
+    display: inline-block;
+    margin-right: 20px; /* add spacing between items */
 }
