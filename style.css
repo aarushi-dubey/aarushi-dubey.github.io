@@ -49,8 +49,7 @@ body {
 }
 
 ul.exp {
-    list-style-type: none;
-    display: inline;
+    list-style: none;
 }
 
 li.exp2 {
