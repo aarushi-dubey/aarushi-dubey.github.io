@@ -68,7 +68,10 @@ body {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-    .name {top: calc(100vh - 10px); left: 10px;}
+}
+
+@media screen and (max-width: 600px) {
+    .name {bottom: calc(100vh - 10px); left: 10px;}
 }
 
 /*ul.exp {
