@@ -71,7 +71,8 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .name {bottom: calc(100vh - 10px); left: 10px;}
+    /*.name {top: calc(100vh - 10px);} */
+    .cont {top: calc(100vh - 100px); left: 25px}
 }
 
 /*ul.exp {
