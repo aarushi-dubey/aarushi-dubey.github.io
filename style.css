@@ -59,9 +59,9 @@ body {
 }
 
 .main {
-    margin-left: 150px; /* Same width as the sidebar + left position in px */
+    margin-left: 155px; /* Same width as the sidebar + left position in px of .sidenav */
     /*font-size: 18px;  Increased text to enable scrolling */
-    padding: 0px 10px;
+    padding: 0px 0px;
     z-index: 3;
 }
 
@@ -70,25 +70,24 @@ body {
     .sidenav a {font-size: 18px;}
 }
 
-ul.exp {
+/*ul.exp {
     list-style: none;
-}
+} */
 
-li.exp2 {
+/* li.exp2 {
     float: left;
     /*display: inline-block;*/
-    /*margin-right: 20px;  add spacing between items */
-}
+    /*margin-right: 20px;  add spacing between items  */ 
 
 h2.sub1 {
     width: 400px;
     position: relative;
     z-index: 1;
-    top: 10px;
-    left: 360px;
+    margin-top: 30px;            /*56 + X = padding (top + bottom) of name + name shaddow + space away from name*/
+    margin-left: 175px;            /*margin-left of main (150) + space away from sidenav*/
     overflow-x: hidden;
     background: #FCAB64;
-    padding: 12px 0;
+    padding: 12px 0px;            /* padding is WITHIN the box of thing */ 
     /*border-radius: 25px; */
     box-shadow: -5px 5px rgb(22, 52, 62);
     text-align: center;
@@ -98,8 +97,8 @@ h3.sub2 {
     width: 300px;
     position: relative;
     z-index: 1;
-    top: 20px;
-    left: 410px;
+    margin-top: 30px;            /*56 + X = padding (top + bottom) of name + name shaddow + space away from name*/
+    margin-left: 175px;            /*margin-left of main (150) + space away from sidenav*/
     overflow-x: hidden;
     background: #C49E85;
     padding: 12px 0;
