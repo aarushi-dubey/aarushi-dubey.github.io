@@ -4,7 +4,7 @@ body {
 
 .name {
     top: 0px;
-    left: 0px;
+    left: calc(100vw - 10px);
     font-weight: bold;
     font-size: 36px;
     padding: 20px 20px 30px;
@@ -35,7 +35,7 @@ body {
     position: fixed;
     z-index: 1;
     top: 80px;
-    left: 20px;
+    left: 25px;
     background: #C6EDEF;
     overflow-x: hidden;
     padding: 12px 0;
@@ -80,7 +80,7 @@ body {
     /*margin-right: 20px;  add spacing between items  */ 
 
 h2.sub1 {
-    width: 400px;
+    width: calc(100vw - 250px); /*300px*/
     position: relative;
     z-index: 1;
     margin-top: 30px;            /*56 + X = padding (top + bottom) of name + name shaddow + space away from name*/
@@ -94,7 +94,7 @@ h2.sub1 {
 }
 
 h3.sub2 {
-    width: 300px;
+    width: calc(100vw - 250px);
     position: relative;
     z-index: 1;
     margin-top: 30px;            /*56 + X = padding (top + bottom) of name + name shaddow + space away from name*/
