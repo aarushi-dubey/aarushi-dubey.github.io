@@ -76,6 +76,7 @@ body {
     .cont br {display: none;}
     .sidenav {top: 125px; left: 18px;}
     .intro { margin-left: 0px; margin-top: 18px;}
+    .name {padding-top: 15px;}
 }
 
 
