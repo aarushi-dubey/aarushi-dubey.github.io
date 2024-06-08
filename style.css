@@ -61,7 +61,7 @@ body {
 .main {
     margin-left: 155px; /* Same width as the sidebar + left position in px of .sidenav */
     /*font-size: 18px;  Increased text to enable scrolling */
-    padding: 0px 0px;
+    padding: 20px 8px;
     z-index: 3;
 }
 
@@ -75,7 +75,7 @@ body {
     .cont {top: 80px; left: 25px; width: 300px; height: 25px; padding: 5px 5px;}
     .cont br {display: none;}
     .sidenav {top: 125px; left: 18px;}
-    .intro { margin-left: 0px; margin-top: 18px;}
+    .intro {margin-left: 0px; margin-top: 17px;}
     .name {padding-top: 15px;}
 }
 
@@ -94,7 +94,7 @@ h2.sub1 {
     width: calc(100vw - 225px); /*300px*/
     position: relative;
     z-index: 1;
-    margin-top: 30px;            /*56 + X = padding (top + bottom) of name + name shaddow + space away from name*/
+    margin-top: 34px;            /*56 + X = padding (top + bottom) of name + name shaddow + space away from name*/
     margin-left: 175px;            /*margin-left of main (150) + space away from sidenav*/
     overflow-x: hidden;
     background: #FCAB64;
@@ -119,5 +119,18 @@ h3.sub2 {
 }
 
 .intro {
-    padding: 15px 5px;
+    padding: 0px;
 }
+
+ul li.contbut {
+    width: calc(100vw - 225px); /*300px*/
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+    background-color: coral;
+    box-shadow: -5px 5px rgb(22, 52, 62);
+    text-align: center;
+    overflow-x: hidden;
+    padding: 6px 5px;
+}
+
