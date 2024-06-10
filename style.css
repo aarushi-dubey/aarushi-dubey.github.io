@@ -75,7 +75,7 @@ body {
     
     .cont {top: 80px; right: 50px; width: 50%; height: 25px; padding: 5px 5px;}
     .cont br {display: none;}
-    .sidenav {position: absolute; top: 125px; margin-left: 5%; margin-right: 10%; width: 70%; text-align: center; height: 17px;}
+    .sidenav {position: absolute; top: 125px; width: 70%; text-align: center; height: 17px;}
     .sidenav a {display: inline;}
     .intro {margin-left: -150px; margin-top: 70px; text-align: justify; text-justify: inter-word;}
     .name {padding-top: 15px;}
