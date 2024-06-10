@@ -73,9 +73,9 @@ body {
 @media all and (max-width: 600px) {
     /*.name {top: calc(100vh - 10px);} */
     
-    .cont {top: 80px; right: 70px; width: 300px; height: 25px; padding: 5px 5px;}
+    .cont {top: 80px; right: 50px; width: 50%; height: 25px; padding: 5px 5px;}
     .cont br {display: none;}
-    .sidenav {position: absolute; top: 125px; margin-left: 5%; margin-right: 10%; width: calc(100vw - 190px); text-align: center; height: 17px;}
+    .sidenav {position: absolute; top: 125px; margin-left: 5%; margin-right: 10%; width: 70%; text-align: center; height: 17px;}
     .sidenav a {display: inline;}
     .intro {margin-left: -150px; margin-top: 70px; text-align: justify; text-justify: inter-word;}
     .name {padding-top: 15px;}
@@ -83,7 +83,7 @@ body {
     h2.sub1 {left: -150px; top: 53px; width: calc(100vw - 75px) !important; }     /* negative bc its moving left edge from ancestor */
     h3.sub2 {margin-top: 30px !important; left: -150px; top: 50px;  width: calc(100vw - 60px) !important;}
     ul.top {margin-bottom: -70px; margin-left: -50px !important; margin-top: 60px !important;}
-    .contbuts {margin-top:90px !important; margin-left: 105px;}
+    .contbuts {margin-top:90px !important; margin-left: 90px !important;}
 
     
     /*.sidenav a {float: left; 
@@ -203,5 +203,6 @@ button.but:active {
 }
 
 .contbuts {
-    margin-top: 6px;
+    margin-top: 30px;
+    margin-left: 170px;
 }
